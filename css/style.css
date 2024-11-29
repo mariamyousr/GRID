@@ -1,0 +1,219 @@
+
+
+img{
+    display: block;
+}
+
+body{
+    margin: 0;
+}
+.text{
+    background-color: #f7f8f9;
+    text-align: center;
+    padding: 40px 0px;
+
+}
+.text span ,.phone span ,.tv span{
+    color: #9fa3a7;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.text h1{
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: calc(25px + 1.1vw);
+
+}
+.text a{
+    color: #27b9c2;
+}
+.phone{
+    padding: 30px 20px 0px;
+}
+.phone h2{
+    margin: 10 0px;
+    font-size: 23px;
+    line-height: 33px;
+}
+.phone p{
+    color: #9fa3a7;
+}
+.phone img{
+    
+  width: 249px;
+}
+.keyboard{
+    background-color: #E65236;
+    color: white;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.keyboard img{
+    width: 80%;
+    margin: auto;
+}
+.keyboard h2 , .games h2 , .twitter h2 , .lab h2 , .welcome h2{
+
+  max-width: 270px;
+}
+.keyboard a , .games a , .tv a{
+    text-decoration: none;
+    text-decoration: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.5;
+    color: #ffc80A;
+    font-size: 13px;
+   display: inline-block;
+}
+.games{
+    background-color: #f7f8f9;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.games img{
+    width: 80%;
+}
+.tv{
+    padding: 60px 20px;
+}
+.tv h2{
+    margin: 10px 0px;
+    font-size: 22px;
+    line-height: 33px;
+}
+.tv img{
+    width: 100%;
+}
+.tv a{
+    color: #27b9c2;
+}
+.tv p{
+    color: grey;
+}
+.twitter{
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+    background-color: #38D5f4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.twitter img{
+    max-width: 50px;
+    margin: auto;
+}
+.container{
+    z-index: 1;
+    position: relative;
+}
+.circle{
+    border-radius: 50%;
+    
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: #35cfED;
+    aspect-ratio: 1 / 1;
+ 
+}
+.lab{
+    padding: 35px;
+    background-color: #93B6B7;
+
+}
+.lab img{
+    width: 100%;
+   
+}
+.lab h2{
+    margin: 25px auto;
+    text-align: center;
+}
+.lab span , .icloud span , .welcome span{
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 6px;
+    background-color: #FA684f;
+    color: white;
+    line-height: 20px;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.icloud img{
+    margin: 20px auto;
+    width: 70%;
+}
+.icloud{
+    background-color: #8F76Bc;
+    padding: 60px 30px;
+    text-align: center;
+    color: white;
+    
+    
+}
+.icloud-1 span{
+    
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.icloud a{
+    padding: 15px;
+    margin: 10px;
+    background-color: #ffc80A;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    letter-spacing: 2.4px;
+    padding-top: 10px;
+   
+
+}
+.welcome{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.welcome span{
+    background-color: green;
+}
+.last{
+    padding: 0px 20px 30px;
+    background-color: #2c2c2c;
+    color: white;
+    height: 50vh;
+}
+.last img{
+    width: 40%;
+}
+.last h2{
+    text-align: center;
+
+}
+
+.section{
+    height: 100vh;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+.section{
+    display: grid;
+}
+@media screen and(min-width578) {
+    .section{grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    "text text"
+    "phone phone"
+    "keyboard games"
+    "tv tv"
+    "twitter icloud"
+    "lab icloud"
+    "welcome welcome"
+    "last last";
+
+}
+.text{grid-area: text;}
+.phone{grid-area: phone;}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.phone h2{
+    text-align: left;
+}
+.phone img{
+    width: 50%;
+}
+.keyboard{grid-area: keyboard;}
+.games{grid-area: games;}
+.tv{grid-area: tv;display: flex; gap: 20px; padding-bottom: 0; align-items: flex-end;}
+.tv >:first-child ,
+.tv>:last-child{
+    width: 50%;
+}
+.tv>:last-child{
+    padding-bottom: 50px;
+}
+.icloud{grid-area: icloud;}
+.twitter{grid-area: twitter;}
+.lab{grid-area: lab;}
+.welcome{grid-area: welcome;}
+.last{grid-area: last;}
+.last img{
+    margin: auto;
+    width: 50%;
+}
+
+}
+
+
+@media screen and (min-width:992px) {
+
+}
+    .section{
+
+
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-auto-rows: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "phone phone text text"
+          "keyboard tv tv icloud"
+          "games lab lab icloud"
+          "twitter welcome last last"; 
+      }
+      .phone { grid-area: phone; }
+      .keyboard { grid-area: keyboard; }
+      .keyboard{
+        text-align: center;
+      }
+      .tv { grid-area: tv; }
+      .icloud { grid-area: icloud; }
+      .games { grid-area: games; }
+      .lab { grid-area: lab; }
+      .twitter { grid-area: twitter; }
+      .welcome { grid-area: welcome; }
+      .last { grid-area: last; }
+      .text { grid-area: text; }
+
+     
+
+      
+
+    }
+
+        
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+        
+
+    
+
+
+
+   
+    
+
+
+    
+
+    
+
+    
+   
